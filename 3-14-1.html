@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>HTML and CSS</title>
+             <link rel="stylesheet" href="css/presentation.css" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+			}
+
+			.container {
+				border: 1px dashed #EA4C89;
+			}
+
+			.card {
+				color: rgba(0, 0, 0, 0.6);
+				padding: 2rem;
+				font-weight: 700;
+			}
+
+			.style-1 {
+				background-color: #FB896B;
+			}
+
+			.style-2 {
+				background-color: #9f9bd3;
+				height: 10rem;
+			}
+
+			.style-3 {
+				background-color: #84E8F4;
+				height: 20rem;
+			}
+
+			.style-4 {
+				background-color: #23dc8f;
+				height: 5rem;
+			}
+		</style>
+	</head>
+	<body class="no-reference">
+		<section class="learn">
+			
+			<div class="container flex">
+				<div class="card style-1">1</div>
+				<div class="card style-2">2</div>
+				<div class="card style-3">3</div>
+			</div>
+
+			<br>
+
+			<div class="container grid">
+				<div class="card style-1">1</div>
+				<div class="card style-2">2</div>
+				<div class="card style-3">3</div>
+				<div class="card style-4">4</div>
+			</div>
+		</section>
+	</body>
+</html>
